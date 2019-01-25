@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="WebDav 设置">
+
+        <EditTextPreference
+            android:key="web_dav_account"
+            android:title="WebDav 账号"
+            android:summary="输入你的坚果云账号"
+            android:singleLine="true"/>
+        <EditTextPreference
+            android:key="web_dav_password"
+            android:title="WebDav 密码"
+            android:summary="输入你的坚果云授权密码"
+            android:singleLine="true"/>
+        <Preference
+            android:key="cache_path"
+            android:title="备份位置"
+            android:summary="选择你的「阅读」备份目录 " />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title=" 关于 ">
+        <Preference
+            android:key="ab_id"
+            android:title="作者"
+            android:summary="沚水 @酷安" />
+        <Preference
+            android:key="ab_code"
+            android:title="开源地址"
+            android:summary="https://github.com/zsakvo"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

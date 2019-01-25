@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">YueduSync</string>
+    <string name="loading">loading files…</string>
+    <string name="app_settings">设置</string>
+    <string name="upload_backup">上传备份</string>
+    <string name="download_backup">下载备份</string>
+</resources>
